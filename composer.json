@@ -1,0 +1,19 @@
+{
+    "name": "francishamzagic/quiz_api",
+    "description": "The api for the quiz app",
+    "authors": [
+        {
+            "name": "Francis Hamzagic",
+            "email": "fhamzagic@2mundos.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "quiz\\": "src/"
+        },
+        "files": [
+            "config.php"
+        ]
+    }
+}
